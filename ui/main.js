@@ -9,7 +9,7 @@ element.innerHTML = 'New value';
 var img = document.getElementById('madi');
 var marginLeft = 0;
 function moveRight() {
-  marginLeft = Marginleft + 10;
+  marginLeft = MarginLeft + 10;
   img.style.marginLeft = marginLeft + 'px';
 }
 img.onclick = function () {
